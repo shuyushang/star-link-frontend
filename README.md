@@ -3,10 +3,12 @@
 Built location, altitude, and duration-based selectors to refine the satellite search.
 
 
+
 ## Description
 
 * Designed and developed a visualization dashboard using ReactJS and D3 to track satellites based on geo-location in real time.
 * Animated selected satellite paths on a world map using D3 to improve user-friendliness.
+
 
 
 ## Getting Started
@@ -16,6 +18,7 @@ Built location, altitude, and duration-based selectors to refine the satellite s
 ```
 git clone -b master https://github.com/shuyushang/star-link-frontend.git
 ```
+
 
 ### Install npm
 
@@ -40,6 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the StarLink Traject
 ### Hands-on
 
 Provide the "Duration(min)" and "Find Satellite" and select the Satellites-of-Interest to "Track on the map"!
+
 
 
 ## More about the React App
