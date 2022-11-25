@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React JS Based Starlink Trajectory Visualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built location, altitude, and duration-based selectors to refine the satellite search.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+* Designed and developed a visualization dashboard using ReactJS and D3 to track satellites based on geo-location in real time.
+* Animated selected satellite paths on a world map using D3 to improve user-friendliness.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Clone/Pull the Repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone -b master https://github.com/shuyushang/star-link-frontend.git
+```
 
-### `npm run build`
+### Install npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Navigate to the cloned repo, bring up your terminal or cmd window, and type in,
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You only need to do this once.
 
-### `npm run eject`
+### Run the Starlink Trajectory Visualization
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Once npm is installed, type in,
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open [http://localhost:3000](http://localhost:3000) to view the StarLink Trajectory if the browser does not launch automatically!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Hands-on
 
-## Learn More
+Provide the "Duration(min)" and "Find Satellite" and select the Satellites-of-Interest to "Track on the map"!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## More about the React App
+[Create React App](https://github.com/facebook/create-react-app)
