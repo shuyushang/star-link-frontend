@@ -22,9 +22,10 @@ git clone -b master https://github.com/shuyushang/star-link-frontend.git
 
 ### Install npm
 
-Navigate to the cloned repo, bring up your terminal or cmd window, and type in,
+Bring up your terminal or cmd window, navigate to the cloned repo, and type in,
 
 ```
+cd star-link-frontend
 npm install
 ```
 You only need to do this once.
