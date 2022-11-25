@@ -22,18 +22,19 @@ git clone -b master https://github.com/shuyushang/star-link-frontend.git
 
 ### Install npm
 
-Bring up your terminal or cmd window, navigate to the cloned repo, and type in,
+Navigate to the cloned repo, and install npm,
 
 ```
 cd star-link-frontend
 npm install
 ```
+
 You only need to do this once.
 
 
 ### Run the Starlink Trajectory Visualization
 
-Once npm is installed, type in,
+Once npm is installed, launch the web application,
 
 ```
 npm start
